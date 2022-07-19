@@ -1,0 +1,44 @@
+.video{
+  position: relative;
+  /* border: 2px solid red; */
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+
+.video1{
+  width: 1000px;
+  overflow: hidden;
+  position: absolute;
+}
+
+#button{
+  width: 5px;
+  background-color:#fff;
+  height: 600px;
+  text-align: center;
+  z-index: 99;
+  position: absolute;
+  right: 500px;
+}
+
+.video2{
+  width: 500px;
+  height: 600px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+#v1{
+  width: 1000px;
+}
+#v2{
+  width: 1000px;
+}
+/* #v2::before{
+  height: 700px;
+  width: 2px;
+  color: black;
+} */
